@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d0e409b5-ca1c-4a43-833c-88793b895f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Imgui">
+      <UniqueIdentifier>{12f4b840-f9c5-4045-b1aa-5d29cd41db15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_demo.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_draw.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_impl_win32.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_tables.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_widgets.cpp">
+      <Filter>Source\Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadFunction.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imconfig.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_impl_dx11.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_impl_win32.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_internal.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imstb_rectpack.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imstb_textedit.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imstb_truetype.h">
+      <Filter>Source\Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
